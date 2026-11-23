@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="t d">
+  <title id="t">Akshit Sharma, AI/ML Engineer</title>
+  <desc id="d">Animated banner: a friendly robot, the name Akshit Sharma, and a rotating list of roles: AI/ML Engineer, Agentic AI Builder, Full-Stack Developer, Published Researcher.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171412"/><stop offset="1" stop-color="#0d0c0b"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" x2="1">
+      <stop offset="0" stop-color="#F3E7D7"/><stop offset="1" stop-color="#E8B04B"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" x2="1"><stop offset="0" stop-color="#D98A5F"/><stop offset="1" stop-color="#E8B04B"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#D98A5F" stop-opacity=".35"/><stop offset="1" stop-color="#D98A5F" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="320" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    .serif { font-family: Georgia, 'Times New Roman', serif; font-style: italic; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+    .role { opacity: 0; animation: show 12s infinite both; }
+    .r2 { animation-delay: 3s; } .r3 { animation-delay: 6s; } .r4 { animation-delay: 9s; }
+    @keyframes show { 0% { opacity: 0; transform: translateY(10px); } 4% { opacity: 1; transform: translateY(0); } 22% { opacity: 1; transform: translateY(0); } 26% { opacity: 0; transform: translateY(-10px); } 100% { opacity: 0; } }
+    .blink { transform-box: fill-box; transform-origin: center; animation: blink 5s infinite; }
+    @keyframes blink { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(.08); } }
+    .pulse { animation: pulse 1.6s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+    .bob { animation: bob 4s ease-in-out infinite; }
+    @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+    .f1 { animation: bob 5s ease-in-out infinite; } .f2 { animation: bob 6s ease-in-out -2s infinite; } .f3 { animation: bob 4.5s ease-in-out -1s infinite; } .f4 { animation: bob 5.5s ease-in-out -3s infinite; }
+    .cursor { animation: pulse 1s steps(1) infinite; }
+    @media (prefers-reduced-motion: reduce) { .role, .blink, .pulse, .bob, .f1, .f2, .f3, .f4, .cursor { animation: none; } .r1 { opacity: 1; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <circle cx="960" cy="165" r="230" fill="url(#glow)"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="318" rx="21" fill="none" stroke="#ffffff" stroke-opacity=".1"/>
+
+  <!-- status pill -->
+  <g transform="translate(64 54)">
+    <rect width="318" height="30" rx="15" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".12"/>
+    <circle cx="18" cy="15" r="4.5" fill="#6FBF86" class="pulse"/>
+    <text x="32" y="20" class="mono" font-size="12.5" fill="#C9C0B3">AI Developer @ Bitronix · open to collaborations</text>
+  </g>
+
+  <!-- name -->
+  <text x="62" y="156" class="sans" font-size="76" font-weight="700" fill="url(#name)" letter-spacing="-2">Akshit</text>
+  <text x="318" y="156" class="serif" font-size="76" fill="#D98A5F">Sharma</text>
+
+  <!-- rotating roles -->
+  <g class="mono" font-size="25" fill="#E9E2D6">
+    <text x="64" y="212" class="role r1">~/ AI/ML Engineer<tspan class="cursor" fill="#9BE15D"> ▍</tspan></text>
+    <text x="64" y="212" class="role r2">~/ Agentic AI Builder<tspan class="cursor" fill="#9BE15D"> ▍</tspan></text>
+    <text x="64" y="212" class="role r3">~/ Full-Stack Developer<tspan class="cursor" fill="#9BE15D"> ▍</tspan></text>
+    <text x="64" y="212" class="role r4">~/ Published Researcher<tspan class="cursor" fill="#9BE15D"> ▍</tspan></text>
+  </g>
+  <text x="64" y="262" class="sans" font-size="16" fill="#9C9487">Multi-agent LLM systems · RAG · computer vision · production backends</text>
+
+  <!-- floating tech chips -->
+  <g class="mono" font-size="13" fill="#E9E2D6">
+    <g class="f1"><g transform="translate(730 62)"><rect width="92" height="30" rx="15" fill="#ffffff" fill-opacity=".06" stroke="#D98A5F" stroke-opacity=".55"/><text x="46" y="20" text-anchor="middle">LangGraph</text></g></g>
+    <g class="f2"><g transform="translate(1040 92)"><rect width="56" height="30" rx="15" fill="#ffffff" fill-opacity=".06" stroke="#E8B04B" stroke-opacity=".55"/><text x="28" y="20" text-anchor="middle">RAG</text></g></g>
+    <g class="f3"><g transform="translate(720 236)"><rect width="84" height="30" rx="15" fill="#ffffff" fill-opacity=".06" stroke="#9BE15D" stroke-opacity=".5"/><text x="42" y="20" text-anchor="middle">FastAPI</text></g></g>
+    <g class="f4"><g transform="translate(1040 228)"><rect width="88" height="30" rx="15" fill="#ffffff" fill-opacity=".06" stroke="#D98A5F" stroke-opacity=".55"/><text x="44" y="20" text-anchor="middle">YOLOv8</text></g></g>
+  </g>
+
+  <!-- robot -->
+  <g class="bob"><g transform="translate(852 62) scale(3.4)">
+    <line x1="32" y1="14" x2="32" y2="6" stroke="#8A8174" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="32" cy="5" r="3.2" fill="#9BE15D" class="pulse"/>
+    <rect x="2.5" y="26" width="6" height="14" rx="3" fill="#3a3530" stroke="url(#rim)" stroke-width="1.2"/>
+    <rect x="55.5" y="26" width="6" height="14" rx="3" fill="#3a3530" stroke="url(#rim)" stroke-width="1.2"/>
+    <rect x="8" y="14" width="48" height="38" rx="13" fill="#EDE7DC" stroke="url(#rim)" stroke-width="1.6"/>
+    <rect x="14" y="22" width="36" height="21" rx="9" fill="#0a0a09"/>
+    <g class="blink"><ellipse cx="25" cy="32" rx="4.2" ry="5" fill="#9BE15D"/><ellipse cx="39" cy="32" rx="4.2" ry="5" fill="#9BE15D"/>
+      <circle cx="23.8" cy="30" r="1.2" fill="#fff" opacity=".8"/><circle cx="37.8" cy="30" r="1.2" fill="#fff" opacity=".8"/></g>
+    <path d="M26 39 q6 4 12 0" stroke="#9BE15D" stroke-width="1.4" fill="none" stroke-linecap="round" opacity=".8"/>
+  </g></g>
+</svg>
