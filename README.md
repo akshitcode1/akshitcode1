@@ -4,8 +4,8 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-akshits--ai--showcase-D98A5F?style=for-the-badge&logo=vercel&logoColor=white)](https://akshits-ai-showcase.vercel.app)
-[![Blog](https://img.shields.io/badge/Blog-AI%20notes%20%26%20memes-E8B04B?style=for-the-badge&logo=rss&logoColor=black)](https://akshits-ai-showcase.vercel.app/blog)
+[![Portfolio](https://img.shields.io/badge/Portfolio-akshitsharma.is--a.dev-D98A5F?style=for-the-badge&logo=vercel&logoColor=white)](https://akshitsharma.is-a.dev)
+[![Blog](https://img.shields.io/badge/Blog-AI%20notes%20%26%20memes-E8B04B?style=for-the-badge&logo=rss&logoColor=black)](https://akshitsharma.is-a.dev/blog)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Akshit%20Sharma-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akshitsharma-ai/)
 [![Instagram](https://img.shields.io/badge/Instagram-ak__s911-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ak_s911/)
 [![Email](https://img.shields.io/badge/Email-Say%20hi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akshit911sharma@gmail.com)
@@ -24,7 +24,7 @@ I'm an AI/ML engineer in Chandigarh, India. I build intelligent systems end to e
 | ⚡ **Before** | **AI Developer Intern, ZEVpoint e-Mobility** (EV charge-point management on OCPP/OCPI, Azure, 99.9% uptime). **ML Engineer Intern, SoftKiwi Technologies** (medical imaging CNNs and explainable AI). |
 | 🎓 **Education** | B.E. Computer Science (AI & ML), Chandigarh University, 2022 to 2026 |
 | 📚 **Research** | IEEE INOACC 2025 paper on low-resource machine translation. Springer book chapter on fake-news detection with graph attention networks (in production). |
-| ✍️ **Writing** | A weekly blog on AI agents, LLMs and life as an AI developer. [Read it here](https://akshits-ai-showcase.vercel.app/blog). |
+| ✍️ **Writing** | A weekly blog on AI agents, LLMs and life as an AI developer. [Read it here](https://akshitsharma.is-a.dev/blog). |
 
 ---
 
@@ -125,10 +125,10 @@ EfficientNetV2 models reaching 92.8% accuracy on 5,863 chest X-rays and 93.52% o
 
 ## ✍️ From the blog
 
-> **[AI Agents Won't Take Your Job. The Developer Who Reviews Their Code Might.](https://akshits-ai-showcase.vercel.app/blog/ai-agents-wont-take-your-job)**
+> **[AI Agents Won't Take Your Job. The Developer Who Reviews Their Code Might.](https://akshitsharma.is-a.dev/blog/ai-agents-wont-take-your-job)**
 > What changed for developers in 2026, told with comics, and what I'd learn if I were starting today.
 
-New posts every week at **[the blog](https://akshits-ai-showcase.vercel.app/blog)**.
+New posts every week at **[the blog](https://akshitsharma.is-a.dev/blog)**.
 
 ---
 
